@@ -1,6 +1,8 @@
 # Intro
 This template provides a complete solution for regularly exporting an inventory of all Entra ID App Registrations to Log Analytics. This inventory can then be used in Sentinel, especially in Workbooks and, if necessary, in Analytics Rules.
 
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FJLangthaler%2FSentinel-App-Registratons-Inventory%2Frefs%2Fheads%2Fmain%2FTemplate.json)
+
 # Components
 ## Data Collection Rule (DCR)
 The Data Collection Rule is necessary to send data via API to Log Analytics. This is a requirement from Microsoft.
